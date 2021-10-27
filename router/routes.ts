@@ -3,6 +3,12 @@ import CryptoPage from 'pages/cryptos'
 import CurrencyDetail from 'pages/detail'
 import { RouteProps } from 'react-router'
 
+/**
+ * Cool! I see that you're adding a new page
+ * Maybe you're wondering what is the purpose of the props inside each object
+ * This link may help you https://reactrouter.com/web/api/Route
+ */
+
 const routes: RouteProps[] = [
   {
     path: '/',
